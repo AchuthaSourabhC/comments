@@ -1,0 +1,29 @@
+{% extends "user/index.html" %}
+
+{% block head %}
+	  <script src="{{ host}}/public/js/jquery_validate.js"></script>
+
+	<script type="text/javascript" src="{{ host}}/public/js/comments.js"></script>
+      
+
+{% endblock %}
+
+
+{% block comment %}
+
+<div class="content-wrap">
+	<div class='comment-form'>
+		<form action='dbins.php' method='post' id='cmnt-form-main' novalidate='novalidate' >
+			<textarea type='text' name='message' id='message-main' class="message-box" placeholder="Add comments here"></textarea>
+			<input type='hidden' value=0 name='parent_id' id='parent_id_main' >
+			<input type='submit' value='comment' id='submit-but-main' class='submit-but-wrap' >
+		</form>
+	</div>
+
+	<div class="cmnt-main" id="cmnt">
+
+	</div>
+
+</div>
+
+{% endblock %}
