@@ -1,4 +1,4 @@
-simpleAuth
+comments
 ===========
     A multlevel ajax comment system with php/mysql backend.
 	
