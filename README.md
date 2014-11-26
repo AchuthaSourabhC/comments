@@ -1,6 +1,6 @@
 comments
 ===========
-    A multlevel ajax comment system with php/mysql backend.
+    A multlevel ajax comment system with php/mysql backend and simpleMVC
 	
  
 tools used
